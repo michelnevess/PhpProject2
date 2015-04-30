@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-class EmpregadoresController extends AppController {
+class EmpregadoresController extends AppController { // Sou o michel
 
     public $helpers = array('Html', 'Form');
     public $uses = array('Empregador', 'Empregadorespergunta', 'Empregadoresresposta');
